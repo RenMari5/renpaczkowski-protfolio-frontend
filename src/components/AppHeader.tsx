@@ -7,7 +7,7 @@ export default function AppHeader() {
       <div className="flex justify-between items-center h-full">
         <Link to="/" className="no-underline text-white">
           <Title color="tan" order={4}>
-            Fresh OJ
+            Ren Paczkowski
           </Title>
         </Link>
       </div>
