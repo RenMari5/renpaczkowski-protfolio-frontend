@@ -1,13 +1,16 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import EnglishPage from "./pages/EnglishPage";
+import JapanesePage from "./pages/JapanesePage";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">Welcome!</h1>
       <Routes>
-        <Route path="/" element={<EnglishPage />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/english" element={<EnglishPage />} />
+        <Route path="/japanese" element={<JapanesePage />} />
       </Routes>
     </div>
   );
