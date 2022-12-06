@@ -1,5 +1,9 @@
 import AppContainer from "../components/AppContainer";
 
 export default function EnglishPage() {
-  return <AppContainer>ようこそ！</AppContainer>;
+  return (
+    <div>
+      <AppContainer>ようこそ！</AppContainer>
+    </div>
+  );
 }
